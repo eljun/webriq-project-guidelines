@@ -1,3 +1,7 @@
+# Objectives for Revamp
+
+> The objective of the WebriQ revamp is to focus on our front-end technology platform, it's merits and advantages and it's key features. The focus is solely on Pages, not on Shops. Shops can be created from within the APP once an account is created, but will not be featured on the main page. This to keep the focus of viewers and browsers on our **front-end development tools**. CLEAR distinction in content and design between WF and WebriQ. WebriQ is the technology company and WF is the service company based on the WebriQ technologies.
+
 # Menu
 
 	-> Use expanded menu like Webfactories
@@ -9,7 +13,7 @@
 	Main Tagline	-> Modern front-end developers tools
 	Subheader 		-> for content editors and developers
 	Button 			-> Free Account
-	Background 		-> Technology oriented background eg: https://netlify.com
+	Background 		-> Technology oriented background eg: https://netlify.com (we can do better than this)
 
 # Feature 1
 
@@ -130,7 +134,7 @@
 
 
 		-> Rename: CREATE FREE ACCOUNT to FREE ACCOUNT
-		-> Follow us - remove facebook account and replace with WebriQ in-slack 
+		-> Follow us - remove facebook account and replace with WebriQ in-slack
 
 
 ## Other Notes:
@@ -138,4 +142,19 @@
 	- Remove all references to WebriQShops
 	- Remove trusted brands
 
+# References
+
+## Slider
+- Moving background: [http://bert.house/en/"](http://bert.house/en/)
+- [<img src="ideas/slider-layout-idea1.png">](ideas/slider-layout-idea1.png)
+- [<img src="ideas/slider-layout-idea2.png">](ideas/slider-layout-idea2.png)
+
+## Features
+- [<img src="ideas/features-layout-idea1.png">](ideas/features-layout-idea1.png)
+- [<img src="ideas/features-layout-idea2.png">](ideas/features-layout-idea2.png)
+
+## Tools
+- [<img src="ideas/tools-layout-idea1.png">](ideas/tools-layout-idea1.png)
+- [<img src="ideas/tools-layout-idea2.png">](ideas/tools-layout-idea2.png)
+- [<img src="ideas/tools-layout-idea3.png">](ideas/tools-layout-idea3.png)
 
