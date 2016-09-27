@@ -72,8 +72,6 @@
 		[3] Versioning & Rollbacks
 			Each lightweight deploy is treated as an immutable snapshot of the site. Rolling back as far as you’d like is just a matter of clicking the version you want live again.
 
-		[4] Git Integration
-			We generate
 
 # Section 4
 
@@ -85,33 +83,37 @@
 		[1] Continuous deployment of Content (CMS)
 			In the same way as new code is deployed, so is content. Through a UI friendly Markdown editor with preview mode, you can edit, manage and publish any new or existing content. Content updates are pushed to your Github private repo for immediate deployment on your website.
 
-		[2] Multiple Environments Support
+		[2] Collaboration for Members
+			As an account owner you can invite multiple other contributors to your application, be it developers, content writers or content editors.
+
+		[3] Multiple Environments Support
 			Support multiple environments (i.e. preview, staging, production) with a simple argument. Each environment can track a branch, providing isolated environments for previewing, staging or production.
 
-		[3] Redirect, Rewrite, & Proxy Rules
+		[4] Redirect, Rewrite, & Proxy Rules
 			Use different rules to control how requests are handled. Proxy part of your traffic to your own backend, redirect old pages, or rewrite a page entirely. Or do them all.
 
-		[4] Form Submission Hooks
+		[5] Form Submission Hooks
 			We support form submissions for any HTML form on your website and each submission triggers an email, a slack notifications or a webhook.
 
-		[5] Post processing
-			Includes pretty URLs, CSS: Bundle & Minify, Javascript: Bundle & Minify	and Images: Lossless Compression.
+		[6] Post processing
+			Includes pretty URLs, CSS: Bundle & Minify, Javascript: Bundle & Minify and Images: Lossless Compression.
+
+		[7] Google Analytics
+			As one of the essential tools in the industry to analyze traffic and behaviours from your website or APP, we have neatly integrated Google analytics for any of your projects at hand.
 
 # Section 5
 
 	Main Heading 	-> Beyond five different world languages, we speak also your language
 	Images:
-		-> Javascript
 		-> Node.js
-		-> Markdown
-		-> Coffeescript
-		-> Gulp
-		-> Grunt
 		-> npm
+		-> Javascript
+		-> Coffeescript
+		-> Markdown
+		-> Pug (Jade)
 		-> HTML5
 		-> CSS3
-		-> Sass
-		-> Less
+		-> Stylus
 		-> Github
 		-> Slack
 		-> Trello
