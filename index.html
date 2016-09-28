@@ -7,64 +7,161 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css">
 	<style type="text/css">
 		body {
+			background: #222;
 			color: #616161;
+			padding-top: 100px;
 		}
-		h3 {
-			color: #212121;
+		.col-md-2-heading {
+			font-family: "Roboto";
+			font-size: 14px;
+			font-weight: 500 !important;
+			text-transform: uppercase;
+			color: #fff;
+			margin-bottom: 15px;
 		}
-		.cdn {
-			width: 120px;
-			height: 120px;
-			margin-right: auto;
-			margin-left: auto;
-		}
-
-		.cdn:hover * {
-			transition: all 300ms ease-in-out;
-		}
-		.cdn:hover .primary-c,
-		.cdn:hover .primary-c {
-			stroke: #40C5F4 !important;
-		}
-		.cdn:hover .primary-dots,
-		.cdn:hover .primary-inverted {
-			fill: #40C5F4  !important
-		}
-		.cdn:hover .primary-around {
-			stroke: #BDBDBD !important;
-		}
-		.card2{
+		.card-list {
 			text-align: center;
-			padding: 10px 15px;
+		}
+		.card-list img {
+			max-width: 100%;
+			margin: 15px auto
+		}
+		.row div[class^="col"] {
+			border: 1px solid #222;
+			border-radius: 10px
+		}
+		.row div[class^="col"]:hover{
+			border-color: #fff;
+			transition: all 200ms ease-in-out;
+		}
+		h1 {
+			color: #fff;
+		}
+		p {
+			color: #999;
+		}
+		hr{
+			margin: 0 0 15px 0;
+			border-bottom: 1px solid #666;
 		}
 	</style>
 </head>
 <body>
 <div class="container">
+	<h1 class="text-center">Icon collections</h1>
+	<br>
+	<p>This to keep the focus of viewers and browsers on our front-end development tools. CLEAR distinction in content and design between WF and WebriQ. WebriQ is the technology company and WF is the service company based on the WebriQ technologies.</p>
+	<br>
+	<hr>
 	<div class="row">
-		<div class="col-md-4">
-			<div class="card2">
-				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class="img-responsive cdn" viewBox="0 0 350 350" style="enable-background:new 0 0 350 350;" xml:space="preserve">
-				<circle style="fill:none;stroke:#E0E0E0;stroke-width:3;stroke-miterlimit:10;" cx="176.3" cy="175.6" r="151" class="primary-around" />
-				<path style="fill:none;stroke:#B3E5FC;stroke-width:4;stroke-miterlimit:10;" d="M77.6,220.3c14.9,32.4,71,38.4,125.4,13.4
-					c54.4-25,86.3-71.5,71.4-103.9" class="primary-c" />
-				<line style="fill:none;stroke:#B3E5FC;stroke-width:4;stroke-miterlimit:10;" x1="78" y1="221" x2="274.7" y2="130.3" class="primary-c" />
-				<path style="fill:none;stroke:#B3E5FC;stroke-width:4;stroke-miterlimit:10;" d="M78.2,221.5c-14.9-32.4,17-78.9,71.4-103.9
-					c54.4-25,110.5-19,125.4,13.4"  class="primary-c" />
-				<circle style="fill:none;stroke:#03A9F4;stroke-width:4;stroke-miterlimit:10;" cx="176.3" cy="175.6" r="108.3" class="primary-c"/>
-				<path style="fill:none;stroke:#03A9F4;stroke-width:4;stroke-miterlimit:10;" d="M221.1,274.3c32.4-15,38.3-71,13.2-125.4
-					c-25.1-54.4-71.6-86.2-104-71.3" class="primary-c" />
-				<path  style="fill:#03A9F4;stroke:#03A9F4;stroke-width:4;stroke-miterlimit:10;" d="M160.9,252c-2.5,6.8-10.1,10.3-16.9,7.8l0,0
-					c-6.8-2.5-10.3-10.1-7.8-16.9l0,0c2.5-6.8,10.1-10.3,16.9-7.8l0,0C160,237.6,163.4,245.2,160.9,252L160.9,252z" class="primary-c primary-dots" />
-				<path style="fill:none;stroke:#03A9F4;stroke-width:4;stroke-miterlimit:10;" d="M222.3,273.7c-32.4,15-78.9-16.9-104-71.3
-					C93.2,148,99.2,92,131.6,77" class="primary-c" />
-				<path style="fill:#FFFFFF;stroke:#B3E5FC;stroke-width:4;stroke-miterlimit:10;" d="M214.2,107.9c-2.5,6.8-10.1,10.3-16.9,7.8l0,0
-					c-6.8-2.5-10.3-10.1-7.8-16.9l0,0c2.5-6.8,10.1-10.3,16.9-7.8l0,0C213.3,93.5,216.7,101.1,214.2,107.9L214.2,107.9z"  class="primary-c primary-inverted" />
-				</svg>
-				<h3>Global CDN</h3>
-				<p>Our highest performing Content Delivery Network (CDN) is based on next-gen tech which allows us to provide one of the fastest, most reliable and highly available CDN globally for any of your websites or Web APPS.</p>
-				</div>
-		</div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/cdn.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Global CDN</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/availability.svg" alt="icon">
+	      <h5 class="col-md-2-heading">High Availability</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/atomic_deploy.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Atomic Deploys</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/instant_cache_invalidation.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Instant Cache Invalidation</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/one_click_ssl.svg" alt="icon">
+	      <h5 class="col-md-2-heading">One-Click SSL</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/http.svg" alt="icon">
+	      <h5 class="col-md-2-heading">HTTP2</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/secure_build_environment.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Secure Build Environment</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/no_databases_no_servers.svg" alt="icon">
+	      <h5 class="col-md-2-heading">No databases, no servers</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/git_integration.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Git Integration</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/outbout_webhooks_integration.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Outbound Webhooks & Integrations</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/versioning_and_rollbacks.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Versioning & Rollbacks</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/continuous_deployment_of_content.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Continuous deployment of Content (CMS)</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/collaboration_for_members.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Collaboration for Members</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/multiple_environments_support.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Multiple Environments Support</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/redirect_rewrite_and_proxy_rules.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Redirect, Rewrite, & Proxy Rules</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/form_submission_hooks.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Form Submission Hooks</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/post_processing.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Post processing</h5>
+	    </div>
+	  </div>
+	  <div class="col-lg-2 col-md-3 col-sm-4">
+	    <div class="card-list">
+	      <img src="icons/google_analytics.svg" alt="icon">
+	      <h5 class="col-md-2-heading">Google Analytics</h5>
+	    </div>
+	  </div>
 	</div>
 </div>
 
