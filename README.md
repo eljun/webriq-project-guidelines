@@ -146,6 +146,9 @@
 
 # References
 
+## Menu
+- SVG type animation [https://codepen.io/kyleHenwood/pen/Alayb](https://codepen.io/kyleHenwood/pen/Alayb)
+
 ## Slider
 - Moving background: [http://bert.house/en/"](http://bert.house/en/)
 - [<img src="ideas/slider-layout-idea1.png">](ideas/slider-layout-idea1.png)
@@ -154,6 +157,7 @@
 ## Features
 - [<img src="ideas/features-layout-idea1.png">](ideas/features-layout-idea1.png)
 - [<img src="ideas/features-layout-idea2.png">](ideas/features-layout-idea2.png)
+- [<img src="ideas/features-layout-idea3.png">](ideas/features-layout-idea3.png)
 
 ## Tools
 - [<img src="ideas/tools-layout-idea1.png">](ideas/tools-layout-idea1.png)
