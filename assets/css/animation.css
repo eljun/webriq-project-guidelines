@@ -1,0 +1,22 @@
+
+@keyframes draw {
+  0% {
+	stroke-dasharray: 760;
+	stroke-dashoffset: 0;
+	stroke-width: 2px;
+  }
+  100% {
+	stroke-dasharray: 140 540;
+	stroke-dashoffset: -474;
+	stroke-width: 8px;
+  }
+}
+#halo * {
+	 fill-opacity: 0;
+  transition: fill-opacity 1s;
+}
+
+#halo.finished * {
+	fill: #ffffff;
+	fill-opacity: 1;
+}
