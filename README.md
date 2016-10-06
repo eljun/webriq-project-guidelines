@@ -22,7 +22,7 @@ Webfactories revamp should at least follow the design practices of our 7 princip
 		[1] Please refer to https://deploy-preview-3.webfactories.sites.webriqs.com/
 			- Key changes:
 				- Remove the current background color
-				- Make the animation colorful eg: refer to ( Web services: responsive website )
+				- Apply colors on the icons eg: refer to ( Web services: responsive website )
 
 
 # Section 1
@@ -33,8 +33,8 @@ Webfactories revamp should at least follow the design practices of our 7 princip
 
 	Paragraphs with icons
 
-		[1] No much changes on this section
-			- Perhaps the background needs to be consistent in other sections.
+		[1] Not much changes on this section
+			- Perhaps the background needs to be consistent with other sections.
 
 		NOTE:
 			- Also please update with the icons in the subpages.
@@ -60,8 +60,8 @@ Webfactories revamp should at least follow the design practices of our 7 princip
 			- Equipped with many out of the box enterprise grade features at no cost
 
 		NOTE:
-			- Please apply similar style with section 1.
-			- Also please update with the icons in the subpages.
+			- Please apply similar style from section 1.
+			- Also please update the subpages with the new icons.
 
 # Section 3
 
@@ -95,9 +95,13 @@ Webfactories revamp should at least follow the design practices of our 7 princip
 
 # Other Notes:
 
-	- Some of the earlier changes had already been applied to the demo site here: https://deploy-preview-3.webfactories.sites.webriqs.com/
+	- Some of the earlier changes had already been applied to the demo site here:
+	  [ references ](https://deploy-preview-3.webfactories.sites.webriqs.com)
 	- So the above guidelines are only applicable to the recent updates
 	- The existing changes on the site will be carried with the new Design mock-up
+	- *Please use boilerplate template*
+	- *Please use material base color*
+	- *Please use/design flat material design icons*
 
 # References
 
@@ -105,11 +109,11 @@ Webfactories revamp should at least follow the design practices of our 7 princip
 - SVG type animation [https://codepen.io/kyleHenwood/pen/Alayb](https://codepen.io/kyleHenwood/pen/Alayb)
 
 ## Slider
-- Moving background: [http://bert.house/en/"](http://bert.house/en/)
-- [<img src="ideas/slider-layout-idea1.png">](ideas/slider-layout-idea1.png)
-- [<img src="ideas/slider-layout-idea2.png">](ideas/slider-layout-idea2.png)
+- Moving background: [http://bert.house/en](http://bert.house/en/)
+- [<img src="ideas/slider-layout-idea1.jpg">](ideas/slider-layout-idea1.jpg)
+- [<img src="ideas/slider-layout-idea2.jpg">](ideas/slider-layout-idea2.jpg)
 - [<img src="ideas/slider-layout-idea3.png">](ideas/slider-layout-idea3.png)
 
 ## Blog
-- [<img src="ideas/blog-section">](ideas/blog-section)
+- [<img src="ideas/blog-section.png">](ideas/blog-section.png)
 
