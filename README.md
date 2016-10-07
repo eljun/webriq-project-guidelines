@@ -10,9 +10,9 @@
 
 # Slider
 
-	Main Tagline	-> Modern front-end developers tools
-	Subheader 		-> for content editors and developers
-	Button 			-> Free Account
+	Main Tagline	-> Moder Technology Stack
+	Subheader 		-> for developers and content editors
+	Button 			-> Free Account | Demo
 	Background 		-> Technology oriented background eg: https://netlify.com (we can do better than this)
 
 # Feature 1
