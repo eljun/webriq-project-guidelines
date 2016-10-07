@@ -95,10 +95,7 @@
 		[5] Form Submission Hooks
 			We support form submissions for any HTML form on your website and each submission triggers an email, a slack notifications or a webhook.
 
-		[6] Post processing
-			Includes pretty URLs, CSS: Bundle & Minify, Javascript: Bundle & Minify and Images: Lossless Compression.
-
-		[7] Google Analytics
+		[6] Google Analytics
 			As one of the essential tools in the industry to analyze traffic and behaviours from your website or APP, we have neatly integrated Google analytics for any of your projects at hand.
 
 # Section 5

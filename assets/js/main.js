@@ -1,43 +1,5 @@
-var arr = [];
 
-$(".lang").find( "svg" ).each(function(){
-	arr.push( "#" + $(this).attr('id') );
-})
-
-
-// Animation properties
-
-function lang( element ) {
-	TweenMax.from( element , 1.5, {scale: 1.5, opacity:1,  force3D:true}, 0.2);
-}
-
-
-// for( var i = 0; i < arr.length; i++) {
-// 	$("body").find( arr[i] ).each(function(){
-// 		// TweenMax.staggerFrom( arr[i], 2, {scale:0.5, opacity:0, delay:0.5, ease:Elastic.easeOut, force3D:true}, 0.2);
-// 		console.log( $(this) )
-// 		$(this).each(function(){
-// 			TweenMax.staggerFrom( arr[i], 2, {scale:0.5, opacity:0, delay:0.5, ease:Elastic.easeOut, force3D:true}, 0.2);
-// 		})
-// 	});
-// }
-
-TweenMax.staggerFrom( '#git', 2, {scale:0.5, opacity:0, delay:0.5, ease:Elastic.easeOut, force3D:true}, 0.2);
-
-// $('body').find('.svg').mouseover(function(){
-// 	TweenMax.from( $(this).find('.git-circle'), 0.2, { fill: "#ddd"});
-// })
-
-
-
-function myCallback(){
-	console.log($(this).attr())
-}
-
-
-// $('#map').find('#marker-au').click(function(){
-//    $(this).popover('show')
-// })
+TweenMax.staggerFrom( '#git, #git2, #git3, #git4, #git5, #git6', 2, {scale:0.5, opacity:0, delay:0.5, ease:Elastic.easeOut, force3D:true}, 0.2);
 
 var pb  = {"title": "Philippe Bodart", "content": "Philippe Bodart contacts"}
 var usa = {"title": "United States", "content": "Usa contents here"}

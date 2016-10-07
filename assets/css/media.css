@@ -1,5 +1,10 @@
 @media screen and (max-width: 640px) {
-	.slider .lang svg {
-		width: 50px;
+	.slider .lang img {
+		width: 60px;
+	}
+	.slider .hexa.left {
+		top: 55px;
+		max-width: 350px !important;
+		left: -10% !important;
 	}
 }

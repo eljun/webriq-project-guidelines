@@ -2,6 +2,7 @@
 @import 'media.css';
 
 body {
+	background: #333;
 	color: #616161;
 }
 h1 {
@@ -31,7 +32,9 @@ hr{
 }
 .row div[class^="col"] {
 	border: 1px solid #222;
-	border-radius: 10px
+	border-radius: 10px;
+	min-height: 270px;
+	margin-bottom: 15px;
 }
 .row div[class^="col"]:hover{
 	border-color: #fff;
