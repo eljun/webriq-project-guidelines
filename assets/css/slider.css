@@ -10,7 +10,6 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
 	background-color: #035EBB;
 }
 .slider {
-	/*background-image: url('../img/background2.jpg');*/
 	background-repeat: no-repeat;
 	background-position: center top;
 	width: 100%;
