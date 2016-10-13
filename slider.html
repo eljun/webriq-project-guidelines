@@ -2,27 +2,160 @@
 <html>
 <head>
 	<title>Using SVG</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/slider.css">
 </head>
 <body>
-<div class="container-fluid">
-	<div class="row">
-		<div class="slider">
-			<img src="icons/hexas.svg" class="hexa left" >
-			<img src="icons/hexas.svg" class="hexa right" >
-			<div class="lang">
-				<img src="icons/lang/git.svg" id="git">
-				<img src="icons/lang/git.svg" id="git2">
-				<img src="icons/lang/git.svg" id="git3">
-				<img src="icons/lang/git.svg" id="git4">
-				<img src="icons/lang/git.svg" id="git5">
-				<img src="icons/lang/git.svg" id="git6">
+<div class="navbar-wrapper">
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-top fs-navigation-element fs-navigation-toggle-nav fs-navigation__1 fs-light" tabindex="-1" id="fs-navigation__1">
+      <div class="container">
+        <div class="col-md-12 m-t-md section_header">
+        <a href="/" class="navbar-brand">
+            <h4>WebriQ</h4>
+			<div class="hideme">
+			<svg class="drawsvg_line drawsvg" version="1.1" id="svg_logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="185px" height="100px" viewBox="0 0 185 100" enable-background="new 0 0 185 100" xml:space="preserve">
+				<g fill="none" stroke="#2EAEDB" stroke-width="2" stroke-miterlimit="10">
+					<path class="stroke_white" d="M79.5,37c0,16.845-13.655,30.5-30.5,30.5
+						S18.5,53.845,18.5,37S32.155,6.5,49,6.5S79.5,20.155,79.5,37z"/>
+					<path class="stroke_white" d="M59.803,65.522L49,26.5h-1.75L35.861,64.531"/>
+					<path class="stroke_white" d="M53.493,6.823L66,53l9.397-31.287"/>
+					<path class="stroke_white" d="M21.056,24.762L28.875,54L42.486,7.198"/>
+					<path stroke-linecap="round" stroke-miterlimit="10" d="M91.75,2v76.075L49,91.5"/>
+					<path stroke-linecap="round" stroke-miterlimit="10" d="M49,91L2,75.835V2.219"/>
+					<path stroke-linecap="round" stroke-miterlimit="10" d="M2,2h89.75"/>
+					<path class="stroke_white" d="M180.334,49.5c0,2.209-1.791,4-4,4h-68.667
+					c-2.209,0-4-1.791-4-4v-13c0-2.209,1.791-4,4-4h68.667c2.209,0,4,1.791,4,4V49.5z"/>
+				</g>
+			</svg>
 			</div>
+			<img src="https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/img/9ca527ed813811e899c5f4a1a234a3577088e575/logo.png" id="logo_image" data-svg="svg_logo" class="drawsvg hided">
+            </a>
+          	<div class="pull-right top_menu">
+				<svg version="1.1" id="svg_menu" class="drawsvg_line drawsvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  width="59px" height="59px" viewBox="0 0 59 59" enable-background="new 0 0 59 59" xml:space="preserve">
+				<path fill="none" stroke="#039BE5" stroke-width="2" stroke-miterlimit="10" d="M57.835,29.5c0,15.418-12.499,27.918-27.917,27.918
+					S2,44.918,2,29.5C2,14.083,14.5,1.583,29.917,1.583C45.336,1.583,57.835,14.083,57.835,29.5z"/>
+				<g fill="none" stroke="#039BE5" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" >
+					<path class="stroke_white" d="M13.333,18.667h33.001"/>
+					<path class="stroke_white" d="M46.334,29.5H13.333"/>
+					<path class="stroke_white" d="M13.333,39.75h33.001"/>
+				</g>
+				</svg>
+                <button type="button" class="hamburger button  nav_handle_push_right fs-navigation-handle fs-navigation-push-handle fs-navigation-push-right-handle fs-navigation-handle__0 fs-navigation__0 fs-light fs-swap-element fs-navigation-enabled" data-swap-target=".fs-navigation__0" data-swap-linked="fs-navigation-handle__0" data-swap-group="fs-navigation" tabindex="0" aria-controls="fs-navigation__0" aria-expanded="false">Menu</button>
+                <div id="nav-icon1" class="hided"><span></span><span></span><span></span></div>
+         	</div>
+        </div>
+      </div>
+    </nav>
+</div>
+<!-- .navbar-default -->
+<div class="container-fluid">
+	<div class="row slider-background">
+		<div class="slider">
+		<h1 class="slider-heading">
+			<svg class="drawsvg_line drawsvg" version="1.1" id="slider-header" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="715px" height="58px" viewBox="0 0 715 58" enable-background="new 0 0 715 58" xml:space="preserve">
+				<g fill="none" stroke="#039BE5" stroke-width="2" stroke-miterlimit="10">
+					<path d="M9.563,56.758C4.834,56.758,1,51.05,1,44.013V13.747
+						C1,6.707,4.834,1,9.563,1"/>
+					<path d="M425.516,1h279.92C710.165,1,714,6.707,714,13.747
+						v30.266c0,7.037-3.835,12.745-8.564,12.745H474.042"/>
+					<path d="M9.563,1h131.208h284.745"/>
+					<path d="M474.042,56.758H198.576H9.563"/>
+				</g>
+			</svg>
+			<div data-svg="slider-header" class="heading-text drawsvg hided">Modern Technology Stack</div></h1>
+			<h4 class="slider-subheading">
+			<svg class="drawsvg_line drawsvg" version="1.1" id="slider_subheading" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="290px" height="22px" viewBox="0 0 290 22" enable-background="new 0 0 290 22" xml:space="preserve">
+			<g fill="none" stroke="#039BE5" stroke-width="2" stroke-miterlimit="10">
+				<path d="M6.048,20c-2.209,0-4-1.791-4-4V6.502 c0-2.209,1.791-4,4-4"/>
+				<path d="M200.334,2.502H284c2.209,0,4,1.791,4,4V16 c0,2.209-1.791,4-4,4h-61"/>
+				<path d="M6.048,2.502h61.285h133"/>
+				<path d="M223,20H94.333H6.048"/>
+			</g>
+			</svg>
+			<div data-svg="slider_subheading" class="sub-heading-text drawsvg hided">for developers and content editors</div>
+		</h4>
+		<div class="slider-buttons">
+			<a href="#" id="free_account_link" class="hvr-ripple-out">
+				<svg class="drawsvg_line drawsvg" version="1.1" id="free_account" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="260px" height="50px" viewBox="0 0 260 50" enable-background="new 0 0 260 50" xml:space="preserve">
+					<path fill="none" stroke="#039be5" stroke-width="2" stroke-miterlimit="10" d="M235,2.001c12.703,0,23,10.297,23,22.999"/>
+					<path fill="none" stroke="#039be5" stroke-width="2" stroke-miterlimit="10" d="M100.52,48H25C12.298,48,2,37.703,2,25l0,0"/>
+					<path fill="none" stroke="#039be5" stroke-width="2" stroke-miterlimit="10" d="M258,25c0,12.703-10.297,23-23,23H100.52"/>
+					<path fill="none" stroke="#039be5" stroke-width="2" stroke-miterlimit="10" d="M2,25C2,12.298,12.298,2.001,25,2.001h210"/>
+					</svg>
+				<span class="free_account_text slider_buttons drawsvg hided">Free Account</span>
+			</a>
+			<div class="slider-separator">
+				<svg class="drawsvg_line drawsvg" version="1.1" id="svg_separator" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="260px" height="31.5px" viewBox="0 0 260 31.5" enable-background="new 0 0 260 31.5" xml:space="preserve">
+				<g>
+					<path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.25" stroke-miterlimit="10" d="M129.659,12.426
+						c0.82,0,1.455,0.247,1.904,0.742s0.673,1.177,0.673,2.047c0,0.898-0.162,1.737-0.488,2.519c-0.326,0.781-0.771,1.377-1.336,1.787
+						s-1.217,0.615-1.955,0.615c-0.838,0-1.476-0.249-1.911-0.748s-0.653-1.213-0.653-2.143c0-0.871,0.167-1.686,0.499-2.447
+						s0.782-1.347,1.347-1.757S128.943,12.426,129.659,12.426z M129.604,13.014c-0.565,0-1.073,0.179-1.524,0.537
+						s-0.811,0.871-1.08,1.538s-0.403,1.375-0.403,2.123c0,1.558,0.643,2.337,1.928,2.337c0.579,0,1.093-0.176,1.542-0.529
+						s0.807-0.873,1.073-1.559c0.267-0.686,0.399-1.439,0.399-2.259c0-0.702-0.166-1.242-0.498-1.62
+						C130.707,13.203,130.229,13.014,129.604,13.014z"/>
+					<path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.25" stroke-miterlimit="10" d="M137.779,12.44
+						c0.314,0,0.595,0.032,0.841,0.096l-0.144,0.636c-0.214-0.068-0.472-0.103-0.772-0.103c-0.429,0-0.836,0.146-1.224,0.438
+						s-0.736,0.729-1.046,1.313s-0.538,1.214-0.684,1.894L134.067,20h-0.67l1.579-7.43h0.547l-0.198,1.395h0.041
+						c0.333-0.428,0.613-0.737,0.841-0.926s0.471-0.336,0.728-0.441C137.192,12.492,137.474,12.44,137.779,12.44z"/>
+				</g>
+				<g fill="none" stroke-miterlimit="10">
+					<path stroke="#039BE5" d="M110.667,17H0"/>
+					<path stroke="#81D4FA" d="M149,17h110.667"/>
+				</g>
+				</svg>
+				<img src="assets/img/button_separator.png" data-svg="svg_separator" class="svg_separators hided">
+			</div>
+			<a href="#" id="free_demo_link" class="hvr-ripple-out white">
+				<svg class="drawsvg_line drawsvg" version="1.1" id="free_demo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="260px" height="50px" viewBox="0 0 260 50" enable-background="new 0 0 260 50" xml:space="preserve">
+					<path fill="none" stroke="#039be5" stroke-width="2" stroke-miterlimit="10" d="M2,25C2,12.298,12.298,2.001,25,2.001h210"/>
+					<path fill="none" stroke="#039be5" stroke-width="2" stroke-miterlimit="10" d="M100.52,48H25C12.298,48,2,37.703,2,25l0,0"/>
+					<path fill="none" stroke="#039be5" stroke-width="2" stroke-miterlimit="10" d="M258,25c0,12.703-10.297,23-23,23H100.52"/>
+					<path fill="none" stroke="#039be5" stroke-width="2" stroke-miterlimit="10" d="M235,2.001c12.703,0,23,10.297,23,22.999"/>
+					</svg>
+				<span class="demo_account_text drawsvg slider_buttons hided">Demo</span>
+			</a>
+		</div><!-- .slider-buttons -->
+		<div class="lang">
+			<svg version="1.1" class="drawsvg" id="svg_horizontal_line" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1400px" height="20px" viewBox="0 0 1400 20" enable-background="new 0 0 1400 20" xml:space="preserve">
+				<path fill="none" stroke="#2F89F4" stroke-width="2" stroke-miterlimit="10" d="M0,10h1400"/>
+			</svg>
+			<a href="#" class="hvr-float-shadow">
+				<img id="react" src="assets/img/reacticon.png">
+			</a>
+			<a href="#" class="hvr-float-shadow">
+				<img id="css3" src="assets/img/css3icon.png">
+			</a>
+			<a href="#" class="hvr-float-shadow">
+				<img id="html5" src="assets/img/html5icon.png">
+			</a>
+			<a href="#" class="hvr-float-shadow">
+				<img id="js" src="assets/img/jsicon.png">
+			</a>
+			<a href="#" class="hvr-float-shadow">
+				<img id="pug" src="assets/img/pugicon.png">
+			</a>
+			<a href="#" class="hvr-float-shadow">
+				<img id="git" src="assets/img/giticon.png">
+			</a>
+			<a href="#" class="hvr-float-shadow">
+				<img id="github" src="assets/img/githubicon.png">
+			</a>
+			<a href="#" class="hvr-float-shadow">
+				<img id="netlify" src="assets/img/netlifyicon.png">
+			</a>
+		</div>
+		<img src="icons/hexas.svg" class="hexa right hided drawsvg">
+		<img src="icons/hexas.svg" class="hexa left hided drawsvg">
 		</div>
 	</div>
 </div>
 
+<script src="assets/js/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="assets/js/jquery.easing.1.3.js"></script>
+<script src="assets/js/jquery.drawsvg.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/slider.js"></script>
 </body>
 </html>

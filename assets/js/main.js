@@ -35,11 +35,26 @@ $(document).ready(function(){
 	})
 	$('[data-toggle="tooltip"]').tooltip()
 	$('[data-toggle="popover"]').popover()
-})
+});
 
-function info( el )  {
-	var m = $('.modal');
-	m.find('.modal-title').text( el.title );
-	m.find('.modal-body').text( el.content );
-	m.modal();
-}
+// function info( el )  {
+// 	var m = $('.modal');
+// 	m.find('.modal-title').text( el.title );
+// 	m.find('.modal-body').text( el.content );
+// 	m.modal();
+// }
+
+
+var tl 		= new TimelineMax(),
+	poly 	= $('#hexagon polygon'),
+	hex1 	= $(poly).find('#hex1'),
+	hex2 	= $(poly).find('#hex2'),
+	hex3 	= $(poly).find('#hex3'),
+	hex4 	= $(poly).find('#hex4');
+
+ 
+
+tl.staggerTo([hex1,hex2, hex3, hex4], 3, {opacity: ".15", repeat: -1, ease: Elastic.easeIn }, 0.25)
+
+
+// (poly, 3, { opacity: ".25", repeat: -1, ease: Elastic.easeInOut, force3D:true}, 1);
