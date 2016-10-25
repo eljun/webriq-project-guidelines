@@ -40,7 +40,7 @@
     animation-duration: 1s;
 
     opacity: 0;
-    border: #039be5 solid 2px;
+    border: #fff solid 2px;
     border-radius: 35px;
 }
 .hvr-ripple-out.white:before

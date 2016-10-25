@@ -1,23 +1,42 @@
 var b = $('body');
 
 var sliderScene = b.find('svg.drawsvg').drawsvg({
-	duration: 1500,
+	duration: 1800,
+	stagger: 100,
 	callback: function(){
 		$("svg.drawsvg").css('opacity', '0');
 		$(b).find('.hided').each(function(){
 			$(this).removeClass('hided');
 			$(this).addClass('showed');
 		});
-		$(b).find('.slider').css({"background-image": "url('assets/img/background.jpg')"})
+		TweenMax.to(".demo-buttons p", 0.75, {y: "0px", delay: 1.4, opacity: 1})
+		TweenMax.to(".demo-buttons a", 0.75, {y: "0px", delay: 1.5, opacity: 1})
 	}
 });
 
 sliderScene.drawsvg('animate')
 
-TweenMax.staggerFrom("#react, #css3, #html5, #js, #pug, #git, #github, #netlify", 2,{
-	scale:.5,
+TweenMax.staggerFrom(".lang .first_batch", 0.4,{
+	scale: 2.2,
 	opacity:0,
-	delay: 1.2,
-	ease:Elastic.easeOut,
+	delay: 2.2,
+	ease:Power2.easeInOut,
 	force3D:true},
-	.2)
+	.5)
+
+TweenMax.staggerFrom(".lang .second_batch", 0.4,{
+	scale: 2.5,
+	opacity:0,
+	delay: 2.3,
+	ease:Power2.easeInOut,
+	force3D:true},
+	.3)
+
+TweenMax.staggerFrom(".lang .third_batch", 0.5,{
+	scale: 2,
+	opacity:0,
+	delay: 2.4,
+	ease:Power2.easeInOut,
+	force3D:true},
+	.5)
+

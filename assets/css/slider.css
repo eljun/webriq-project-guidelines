@@ -1,13 +1,14 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600';
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,500';
 @import 'media.css';
 @import 'animate.css';
 @import 'navbar.css';
 
 body, p, h1, h2, h3, h4, h5, td, li, td {
-	font-family: "Open sans", sans-serif
+	font-family: 'Roboto', sans-serif;
 }
 .slider-background {
-	background-color: #035EBB;
+	background: #03a9f4 url("../img/slider/slider-background.jpg");
+
 }
 .slider {
 	background-repeat: no-repeat;
@@ -16,8 +17,7 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
 	height: 750px;
 	margin-bottom: 50px;
 	position: relative;
-	text-align: center;
-	padding-top: 150px;
+	padding-top: 80px;
 }
 .slider .hexa {
 	position: absolute;
@@ -35,11 +35,15 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
 	max-width: 60%;
 }
 .slider .lang {
-	width: 100%;
+	width: 300px;
 	position: absolute;
-	bottom: 65px;
-	text-align: center;
+	left: 30px;
+	top: 155px;
 	z-index: 2;
+	text-align: left;
+}
+.slider .lang img {
+	padding: 7px;
 }
 
 #hexas_gsap {
@@ -49,8 +53,9 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
 }
 
 #svg_logo, #svg_menu,
-#free_account, #free_demo {
+#free_account, #free_demo, #phone {
 	position: absolute;
+	max-width: 100%;
 }
 #free_demo_link:hover .demo_account_text {
 	background: #ffffff !important;
@@ -65,8 +70,7 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
 	margin-top: -17px;
     stroke-width: 4px;
 }
-#svg_logo path, #svg_menu path,
-#free_account path, #free_demo path {
+#svg_logo path, #svg_menu path{
 	stroke-width: 1.5px;
 	stroke: #48c1f9;
 }
@@ -79,7 +83,7 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
 	stroke: #aedcf2 !important;
 }
 #free_account_link {
-	color: #fff;
+	color: #4c4c4c;
 	position: relative;
 	text-decoration: none;
 	font-family: "Open sans";
@@ -114,15 +118,30 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
 	padding: 12px 55px;
 	width: 260px;
 	border-radius: 25px;
-    border-color: #039be5;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 600;
-    z-index: 9;
+	border-color: #fff;
+	color: #4c4c4c;
+	font-size: 15px;
+	font-weight: 600;
+	z-index: 9;
+}
+.demo-buttons {
+	color: #fff;
+	position: absolute;
+	bottom: 115px;
+	left: 95px;
+}
+#free_demo_link.demo_account_text  {
+	width: 170px;
+	text-align: center;
+	color: #fff;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: 2px solid #fff;
+	font-weight: 300;
 }
 .free_account_text {
-	background: #039be5;
-	border: 2px solid #039be5;
+	background: #fff;
+	border: 2px solid #fff;
 }
 .demo_account_text.showed {
 	border: 2px solid #fff;
@@ -139,25 +158,24 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
 }
 .slider .slider-heading {
 	position: relative;
-	font-weight: 400;
+	font-weight: 100;
     font-size: 60px;
     color: #fff;
+    margin-top: 200px;
 }
 
 .slider .slider-subheading {
 	position: relative;
 	font-weight: 300;
     color: #fff;
+    display: inline-block;
 }
 .slider .slider-heading svg {
-	margin-left: auto;
-    margin-right: auto;
     position: absolute;
-    top: 12px;
+    top: 4px;
+    margin-left: -10px;
 }
 .slider .slider-subheading svg {
-	margin-left: auto;
-    margin-right: auto;
     position: absolute;
     top: 8px;
 }
@@ -233,4 +251,31 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
 #svg_horizontal_line path {
 	stroke: #fff;
 	stroke-width: 2px;
+}
+.security {
+	background: #ede3ee;
+	padding: 80px 50px;
+    text-align: right;
+}
+
+
+.phone {
+	text-align: right;
+	position: relative;
+	height: 650px;
+}
+#phone {
+	left: 0;
+}
+.phone img.drawsvg {
+	position: absolute;
+    left: 0px;
+}
+.section_header {
+	height: 50px;
+}
+
+.demo-buttons p, .demo-buttons a{
+	opacity: 0;
+	transform: translateY(50px);
 }
