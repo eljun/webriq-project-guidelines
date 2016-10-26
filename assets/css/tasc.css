@@ -1,0 +1,127 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,500';
+@import 'media.css';
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: #F5F8FA;
+	padding-top: 60px;
+	font-size: 15px;
+}
+p {
+	font-size: 15px;
+	font-weight: 300
+}
+a {
+	color: #333;
+}
+h1,h4 {
+	font-weight: 100 !important
+}
+h2 {
+	font-weight: 300
+}
+h3 {
+	font-weight: 300
+}
+iframe {
+	max-width: 100%;
+}
+/* Nav */
+.navbar-default {
+	background: #3C78D8;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.navbar-default .navbar-brand {
+	font-weight: 500
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background: #fff;
+	color: #333;
+	font-weight: 500
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	background: #4d89e2;
+	color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background: #fff
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background: #4d89e2;
+}
+.navbar-collapse {
+	box-shadow: none;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: 0px;
+}
+
+/* Tab */
+
+.tab-content {
+	padding-top: 15px;
+}
+.nav.nav-pills,
+.nav-tabs {
+	background: #fff;
+	border: 1px solid #d3e0e9;
+}
+.nav.nav-stacked,
+.nav.nav-pills li a,
+.nav-tabs li a {
+	font-size: 14px;
+	font-weight: 500;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 0px;
+}
+.nav.nav-stacked span:before {
+	color: #d3e0e9;
+}
+.nav.nav-stacked span {
+	margin-right: 8px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover,
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	background: #d3e0e9;
+	color: #333;
+	font-weight: 500;
+	border-color: #d3e0e9;
+}
+.thumbnail {
+	border-color: #d3e0e9;
+}
+/* buttons */
+.btn {
+	border-radius: 25px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.btn-primary {
+	background: #3C78D8;
+	border-color: #3C78D8;
+}
+.btn-primary:hover {
+	background: #4d89e2;
+	border-color: #4d89e2;
+}
+
+/* Panel */
+
+.panel-title {
+	font-weight: 500
+}
+.panel-default {
+	border-color: #d3e0e9;
+}
