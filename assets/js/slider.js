@@ -1,4 +1,6 @@
-var b = $('body');
+var b = $('body'),
+	aes = b.find('.animate-earth-small'),
+	ael = b.find('.animate-earth-large');
 
 var sliderScene = b.find('svg.drawsvg').drawsvg({
 	duration: 1800,
@@ -11,8 +13,10 @@ var sliderScene = b.find('svg.drawsvg').drawsvg({
 		});
 		TweenMax.to(".demo-buttons p", 0.75, {y: "0px", delay: 1.4, opacity: 1})
 		TweenMax.to(".demo-buttons a", 0.75, {y: "0px", delay: 1.5, opacity: 1})
-		TweenMax.to(".animate-earth-small", 0.75, {delay: 1.5, opacity: 1})
-		TweenMax.to(".animate-earth-large", 0.75, {delay: 1.8, opacity: 1})
+		TweenMax.to(aes, 2.2, {opacity: 1});
+		TweenMax.to(ael, 2.5, {opacity: 1});
+		TweenMax.to(aes, 90, {ease: Power0.easeNone, rotation: "+=360", transformOrigin: 'center center', repeat:-1, force3D: true })
+		TweenMax.to(ael, 95, {ease: Power0.easeNone, rotation: "-=360", transformOrigin: 'center center', repeat:-1, force3D: true })
 	}
 });
 

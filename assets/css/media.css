@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.navbar-brand>img {
 	    width: 140px;
 	}
@@ -8,6 +8,12 @@
 	}
 	#svg_logo path {
 		stroke-width: 3px;
+	}
+	.svg-earth-pattern img.animate-earth-small {
+		width: 300px;
+	}
+	.svg-earth-pattern img.animate-earth-large {
+		width: 500px;
 	}
 }
 @media (min-width: 768px) {
@@ -34,6 +40,12 @@
 	.heading-text {
 		font-size: 44px;
 		margin-bottom: 25px;
+	}
+	.svg-earth-pattern img.animate-earth-small {
+		width: 250px;
+	}
+	.svg-earth-pattern img.animate-earth-large {
+		width: 400px;
 	}
 }
 
