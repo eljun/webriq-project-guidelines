@@ -11,6 +11,8 @@ var sliderScene = b.find('svg.drawsvg').drawsvg({
 		});
 		TweenMax.to(".demo-buttons p", 0.75, {y: "0px", delay: 1.4, opacity: 1})
 		TweenMax.to(".demo-buttons a", 0.75, {y: "0px", delay: 1.5, opacity: 1})
+		TweenMax.to(".animate-earth-small", 0.75, {delay: 1.5, opacity: 1})
+		TweenMax.to(".animate-earth-large", 0.75, {delay: 1.8, opacity: 1})
 	}
 });
 

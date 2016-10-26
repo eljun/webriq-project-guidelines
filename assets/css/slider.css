@@ -6,9 +6,18 @@
 body, p, h1, h2, h3, h4, h5, td, li, td {
 	font-family: 'Roboto', sans-serif;
 }
-.slider-background {
+/*.slider-background {
 	background: #03a9f4 url("../img/slider/slider-background.jpg");
 
+}*/
+.slider-background {
+	background: #03a9f4 url("../img/slider/slider-background-v2.jpg");
+}
+.svg-earth-pattern img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%)
 }
 .slider {
 	background-repeat: no-repeat;
@@ -275,7 +284,7 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
 	height: 50px;
 }
 
-.demo-buttons p, .demo-buttons a{
+.demo-buttons p, .demo-buttons a, .animate-earth-small, .animate-earth-large{
 	opacity: 0;
 	transform: translateY(50px);
 }
