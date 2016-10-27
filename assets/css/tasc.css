@@ -30,6 +30,7 @@ h3 {
 iframe {
 	max-width: 100%;
 }
+
 /* Nav */
 .navbar-default {
 	background: #455A64;
@@ -98,7 +99,6 @@ iframe {
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
 	background: #448AFF;
 	color: #fff;
-	font-weight: 500;
 	border-color: #448AFF;
 }
 .thumbnail {
@@ -109,7 +109,7 @@ iframe {
 	border-bottom: 1px solid #ECEFF1;
 	padding-left: 10px;
 }
-.nav.custom-tabs.custom-tabs >li >a {	
+.nav.custom-tabs.custom-tabs >li >a {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -134,6 +134,9 @@ iframe {
 }
 
 /* Panel */
+.wpr .panel.panel-default {
+	margin-right: -15px;
+}
 .panel {
 	border-radius: 0px
 }
