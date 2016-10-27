@@ -21,11 +21,11 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="tasc.html">Home <span class="sr-only">(current)</span></a></li>
+						<li class="active"><a href="tasc.html"><span class="glyphicon glyphicon-home"></span>Home <span class="sr-only">(current)</span></a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings <span class="caret"></span></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>Account <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="https://docs.google.com/spreadsheets/d/1MHE4e6pFTaSXbgrnIq2rIdfnfgJKXXXEJTiLaucWDzY/edit#gid=0" target="_blank">Edit</a></li>
 								<li><a href="https://app.webriq.com/auth/login">Login to WebriQ</a></li>
@@ -42,9 +42,10 @@
 					<h1>Team Assessments Skillset Center</h1>
 					<!-- Nav tabs -->
 					<ul class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Overview</a></li>
-						<li role="presentation"><a href="#stats" aria-controls="stats" role="tab" data-toggle="tab">Stats</a></li>
-						<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+						<li role="presentation" class="active">
+						<a href="#home" aria-controls="home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-home"></span>Overview</a></li>
+						<li role="presentation"><a href="#stats" aria-controls="stats" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-signal"></span>Stats</a></li>
+						<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span>Settings</a></li>
 					</ul>
 					<!-- Tab panes -->
 					<div class="tab-content">
@@ -53,30 +54,53 @@
 								<div class="col-md-3 wpr">
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h3 class="panel-title">Status</h3>
+											<h3 class="panel-title"><span class="glyphicon glyphicon-time"></span> Status</h3>
 										</div>
 										<div class="panel-body">
-											<iframe width="252.2830188679245" height="213.6574074074074" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1MHE4e6pFTaSXbgrnIq2rIdfnfgJKXXXEJTiLaucWDzY/pubchart?oid=1607021712&amp;format=interactive"></iframe>
+											<iframe src="https://docs.google.com/spreadsheets/d/1MHE4e6pFTaSXbgrnIq2rIdfnfgJKXXXEJTiLaucWDzY/pubhtml/sheet?headers=false&gid=106370052&range=A1:D9" width="300" height="350" frameborder="0" ></iframe>
 										</div>
 									</div>
 								</div>
 								<div class="col-md-9">
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h3 class="panel-title">Skillset</h3>
+											<h3 class="panel-title"><span class="glyphicon glyphicon-signal"></span> Progress Board</h3>
 										</div>
 										<div class="panel-body">
-											<p>Progress Chart: <b>October</b></p>
-											<iframe width="867.5" height="402" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1MHE4e6pFTaSXbgrnIq2rIdfnfgJKXXXEJTiLaucWDzY/pubchart?oid=1711830628&amp;format=interactive"></iframe>
-										</div>
-									</div>
-									<div class="panel panel-default">
-										<div class="panel-heading">
-											<h3 class="panel-title">Resources</h3>
-										</div>
-										<div class="panel-body">
-											<p>Shows progress improvements for the past few months.</p>
-											<iframe width="850.5" height="450.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1MHE4e6pFTaSXbgrnIq2rIdfnfgJKXXXEJTiLaucWDzY/pubhtml?gid=1822872316&single=true&range=B4:F12&widget=true&rm=demo&headers=false"></iframe>
+
+											<!-- skillset -->
+
+											 <!-- Nav tabs -->
+											  <ul class="nav nav-tabs custom-tabs" role="tablist">
+											    <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
+											    <li role="presentation"><a href="#status" aria-controls="status" role="tab" data-toggle="tab">Status</a></li>
+											    <li role="presentation"><a href="#html" aria-controls="html" role="tab" data-toggle="tab">HTML</a></li>
+											    <li role="presentation"><a href="#css3" aria-controls="css3" role="tab" data-toggle="tab">Css3</a></li>
+											    <li role="presentation"><a href="#javascript" aria-controls="javascript" role="tab" data-toggle="tab">Javascript</a></li>
+											    <li role="presentation"><a href="#webriq4" aria-controls="webriq4" role="tab" data-toggle="tab">Webriq 4</a></li>
+											    <li role="presentation"><a href="#webdesign" aria-controls="webdesign" role="tab" data-toggle="tab">Web Design UI/UX</a></li>
+											  </ul>
+
+											  <!-- Tab panes -->
+											  <div class="tab-content">
+											    <div role="tabpanel" class="tab-pane active" id="all">
+											    <h2>October</h2>
+												<iframe width="833" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1MHE4e6pFTaSXbgrnIq2rIdfnfgJKXXXEJTiLaucWDzY/pubchart?oid=759410142&amp;format=interactive"></iframe>
+											</div>
+											<div role="tabpanel" class="tab-pane" id="status">
+												<p>Shows progress improvements for the past few months.</p>
+
+												<iframe  width="850.5" height="500.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1MHE4e6pFTaSXbgrnIq2rIdfnfgJKXXXEJTiLaucWDzY/pubhtml/sheet?headers=false&gid=1822872316&range=B4:E12" width="300" height="500" frameborder="0" ></iframe>
+
+											</div>
+											    <div role="tabpanel" class="tab-pane" id="html">HTML
+													<iframe width="803.5" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1MHE4e6pFTaSXbgrnIq2rIdfnfgJKXXXEJTiLaucWDzY/pubchart?oid=213692074&amp;format=interactive"></iframe>
+											    </div>
+											    <div role="tabpanel" class="tab-pane" id="css3">Css3</div>
+											    <div role="tabpanel" class="tab-pane" id="javascript">Javascript</div>
+											    <div role="tabpanel" class="tab-pane" id="webriq4">Webriq 4</div>
+											    <div role="tabpanel" class="tab-pane" id="webrdesign">Web Design UI/UX</div>
+											  </div>
 										</div>
 									</div>
 								</div>
@@ -87,7 +111,7 @@
 								<div class="col-md-3 wpr">
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h3 class="panel-title">Status</h3>
+											<h3 class="panel-title"><span class="glyphicon glyphicon-time"></span> Status</h3>
 										</div>
 										<div class="panel-body">
 											<ul class="nav  nav-stacked">
@@ -106,11 +130,11 @@
 								<div class="col-md-9">
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h3 class="panel-title" id="joshua">Joshua</h3>
+											<h3 class="panel-title" id="joshua"><span class="glyphicon glyphicon-comment"></span>Joshua</h3>
+											<a href="profiles/joshua.html" class="btn btn-default pull-right"><span class="glyphicon glyphicon-link"></span> View Profile</a>
 										</div>
 										<div class="panel-body">
 											<p class=" pull-left">Shows progress improvements for the past few months.</p>
-											<a href="profiles/joshua.html" class="btn btn-default pull-right"><span class="glyphicon glyphicon-link"></span> Full</a>
 											<iframe width="794" height="431" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1MHE4e6pFTaSXbgrnIq2rIdfnfgJKXXXEJTiLaucWDzY/pubchart?oid=1315120956&amp;format=interactive"></iframe>
 										</div>
 									</div>
