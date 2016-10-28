@@ -40,12 +40,15 @@
     animation-duration: 1s;
 
     opacity: 0;
-    border: #fff solid 2px;
-    border-radius: 35px;
+    border: #448AFF solid 1px;
+    border-radius: 25px;
 }
-.hvr-ripple-out.white:before
+.hvr-ripple-out.btn-default:before {
+    border-color: #adadad;
+}
+.hvr-ripple-out.btn-primary:before
 {
-    border-color: #fff;
+    border-color: #448AFF;
 }
 .hvr-ripple-out:hover:before,
 .hvr-ripple-out:focus:before,
@@ -110,3 +113,5 @@
     opacity: 1;
     /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
+
+

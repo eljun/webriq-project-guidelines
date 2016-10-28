@@ -158,3 +158,8 @@ hr{
 *:focus {
 	outline: none;
 }
+
+.settings {
+	width: 400px;
+	border: none;
+}

@@ -28,8 +28,8 @@
 		background: #4d89e2;
 		color: #fff;
 	}
-	.wpr .panel.panel-default {
-		margin-right: 0px !important;
+	.wpl .panel.panel-default {
+		margin-left: 0px !important;
 	}
 }
 @media (min-width: 768px) {

@@ -1,5 +1,6 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,500';
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,500,600';
 @import 'media.css';
+@import 'animate.css';
 
 body {
 	font-family: "Roboto", sans-serif;
@@ -29,11 +30,12 @@ h3 {
 }
 iframe {
 	max-width: 100%;
+	overflow: hidden;
 }
 
 /* Nav */
 .navbar-default {
-	background: #455A64;
+	background: #37474F;
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a {
@@ -45,8 +47,9 @@ iframe {
 .navbar-default .navbar-brand {
 	font-weight: 500
 }
+.navbar-default .navbar-brand:hover { color: #fff; }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-	background: #546E7A;
+	background: #455A64;
 	color: #CFD8DC;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover,
@@ -114,15 +117,17 @@ iframe {
 	padding-bottom: 10px;
 }
 .nav.custom-tabs.custom-tabs >li.active>a {
-	background: #CFD8DC !important;
+	background: #f3f3f3 !important;
 	color: #333;
-	border-color: #CFD8DC;
+	border-color: #f3f3f3;
 }
 /* buttons */
 .btn {
 	border-radius: 25px;
 	padding-right: 20px;
 	padding-left: 20px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 .btn-primary {
 	background: #2979FF;
@@ -132,10 +137,18 @@ iframe {
 	background: #4d89e2;
 	border-color: #4d89e2;
 }
-
+.btn-default {
+	border-color: #ECEFF1;
+}
+.btn-default:hover{
+	border-color: #e6e6e6;
+}
+.btn-default:hover span {
+	color: #333;
+}
 /* Panel */
-.wpr .panel.panel-default {
-	margin-right: -15px;
+.wpl .panel.panel-default {
+	margin-left: -15px;
 }
 .panel {
 	border-radius: 0px
@@ -180,8 +193,62 @@ iframe {
     text-decoration: none;
     background-color: #5495ff;
     color: #fff;
-    transition: all 200ms ease-in-out; 
 }
 .nav>li>a:focus, .nav>li>a:hover span {
 	color: #fff;
 }
+.settings tr:hover td {
+	background: #FAFAFA; 
+}
+.settings tr td {
+	text-align: center;
+	border-color: #ECEFF1;
+	padding-top: 12px !important;
+	padding-bottom: 12px !important;
+	font-weight: 300;
+}
+.settings tr td:first-child {
+	background: #f3f3f3;
+	border: none !important;
+}
+.settings tr th {
+	background: #448AFF;
+	text-align: center;
+	color: #fff;
+	padding-top: 12px !important;
+	padding-bottom: 12px !important;
+}
+.sidebar li a {
+	display: block;
+	padding: 10px 0;
+	font-weight: 300;
+}
+.sidebar li a:hover  {
+	color: #333;
+	text-decoration: none;
+	font-weight: 500;
+}
+.sidebar li a:hover span {
+	color: #448AFF;
+}
+
+.panel-heading a {
+	margin-top: -3px;
+	font-weight: 300;
+}
+.panel-heading a:hover {
+	background: #448AFF;
+	border-color: #448aff;
+    color: #fff;
+}
+.panel-heading a:hover span {
+	color: #fff;
+}
+/* Sticky sidebar */
+
+.is-sticky #fixed-sidebar {
+	margin-top: 55px;
+}
+/*.wpr .is-sticky #fixed-sidebar.panel-default {
+	margin-right: -15px;
+}*/
