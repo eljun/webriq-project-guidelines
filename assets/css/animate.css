@@ -1,3 +1,78 @@
+/* Ripple Out */
+
+@keyframes hvr-ripple-out2
+{
+    100%
+    {
+        top: -12px;
+        right: -12px;
+        bottom: -12px;
+        left: -12px;
+        opacity: 0;
+    }
+}
+.hvr-ripple-out2
+{
+    position: relative;
+
+    display: inline-block;
+    transform: translateZ(0);
+    vertical-align: middle;
+
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hvr-ripple-out2:after
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    content: '';
+    animation-duration: 1s;
+
+    opacity: 0;
+    border: #448AFF solid 1px;
+    border-radius: 25px;
+}
+.hvr-ripple-out2.hvr-ripple-rounded:after {
+    border-radius: 100%;
+    border-color: #82B1FF !important;
+    border-width: 2px !important
+}
+.hvr-ripple-out2.btn-default:after {
+    border-color: #adadad;
+}
+.hvr-ripple-out2.btn-primary:after
+{
+    border-color: #448AFF;
+}
+.hvr-ripple-out2:hover:after,
+.hvr-ripple-out2:focus:after,
+.hvr-ripple-out2:active:after
+{
+    animation-name: hvr-ripple-out2;
+    animation-iteration-count: infinite;
+
+    opacity: 1;
+}
+
+.hvr-active:hover .overlay .hvr-ripple-out2:after,
+.hvr-active:focus .overlay .hvr-ripple-out2:after,
+.hvr-active:active .overlay .hvr-ripple-out2:after
+{
+    animation-name: hvr-ripple-out;
+    animation-iteration-count: infinite;
+    opacity: 1;
+}
+
+
 
 /* Ripple Out */
 
@@ -37,8 +112,9 @@
     left: 0;
 
     content: '';
-    animation-duration: 1s;
-
+    animation-duration: 1.2s;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
     opacity: 0;
     border: #448AFF solid 1px;
     border-radius: 25px;
@@ -73,6 +149,9 @@
     animation-iteration-count: infinite;
     opacity: 1;
 }
+
+
+
 /* Float Shadow */
 .hvr-float-shadow
 {
