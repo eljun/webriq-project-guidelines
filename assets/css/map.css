@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,500,600';
 @import 'animation.css';
 @import 'media.css';
 @import 'splatter.css';
@@ -162,4 +163,12 @@ hr{
 .settings {
 	width: 400px;
 	border: none;
+}
+/* modal */
+.modal-content {
+	border-radius: 0px !important;
+}
+.modal-header {
+	background: #448AFF;
+	color: #fff;
 }

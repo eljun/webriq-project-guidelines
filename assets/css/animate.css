@@ -43,6 +43,11 @@
     border: #448AFF solid 1px;
     border-radius: 25px;
 }
+.hvr-ripple-out.hvr-ripple-rounded:before {
+    border-radius: 100%;
+    border-color: #82B1FF !important;
+    border-width: 2px !important
+}
 .hvr-ripple-out.btn-default:before {
     border-color: #adadad;
 }
