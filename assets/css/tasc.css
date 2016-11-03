@@ -9,6 +9,8 @@ body {
 	font-size: 15px;
 	color: #546E7A;
 }
+body.pdf { padding-top: 48px; }
+body.pdf .navbar-default {border-color: transparent !important;}
 p {
 	font-size: 15px;
 	font-weight: 300
