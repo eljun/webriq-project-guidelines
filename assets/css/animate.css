@@ -65,7 +65,14 @@
     opacity: 1;
 }
 
-
+.hvr-active:hover .overlay .hvr-ripple-out:before,
+.hvr-active:focus .overlay .hvr-ripple-out:before,
+.hvr-active:active .overlay .hvr-ripple-out:before
+{
+    animation-name: hvr-ripple-out;
+    animation-iteration-count: infinite;
+    opacity: 1;
+}
 /* Float Shadow */
 .hvr-float-shadow
 {
@@ -120,3 +127,15 @@
 }
 
 
+.overlay {
+    overflow: hidden;
+}
+.panel-default:hover .overlay img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.overlay img {
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+}
