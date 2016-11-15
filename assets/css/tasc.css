@@ -131,10 +131,11 @@ iframe {
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
-.btn-primary {
+.btn-primary{
 	background: #2979FF;
 	border-color: #2979FF;
 }
+
 .btn-primary:hover {
 	background: #4d89e2;
 	border-color: #4d89e2;
@@ -147,6 +148,9 @@ iframe {
 }
 .btn-default:hover span {
 	color: #333;
+}
+.btn-primary span.glyphicon {
+	color: #fff;
 }
 /* Panel */
 .wpl .panel.panel-default {
