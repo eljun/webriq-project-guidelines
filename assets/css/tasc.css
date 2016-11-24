@@ -34,7 +34,10 @@ iframe {
 	max-width: 100%;
 	overflow: hidden;
 }
-
+ol li {
+	margin-bottom: 15px;
+	padding-left: 15px;
+}
 /* Nav */
 .navbar-default {
 	background: #37474F;
@@ -283,6 +286,6 @@ iframe {
 .iframe {
 	overflow: hidden !important;
 	height: 350px;
-	width: 210px !important;
+	width: 310px !important;
 }
 
